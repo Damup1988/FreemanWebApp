@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "/4oWIvJzkXHVSDHSUg/S5XJycpE2Q9TUGgRGVOdcUZVnekgrjYRYn81EghIMQOV45y24+afVodKHzGxpuH33Tw==",
+  "success": true,
+  "projectFilePath": "C:\\_bufer\\!dotNet\\Freeman\\WebApp\\WebApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\safarovd\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.12\\microsoft.netcore.app.host.win-x64.5.0.12.nupkg.sha512"
+  ],
+  "logs": []
+}
