@@ -5,11 +5,10 @@
     <projectFile profileName="WebApp">WebApp.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4fdfeeaa-65db-42ec-9750-fcfa6bf5a363" name="Changes" comment="Chapter 18 - Adding NuGet Packages to the Project">
-      <change afterPath="$PROJECT_DIR$/Models/Category.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Models/Product.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Models/Supplier.cs" afterDir="false" />
+    <list default="true" id="4fdfeeaa-65db-42ec-9750-fcfa6bf5a363" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Models/SeedData.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.WebApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebApp/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/WebApp.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/WebApp.csproj.AssemblyReference.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +74,8 @@
       <option name="presentableId" value="Default" />
       <updated>1650142495694</updated>
       <workItem from="1650142501731" duration="65000" />
-      <workItem from="1650142596073" duration="685000" />
+      <workItem from="1650142596073" duration="857000" />
+      <workItem from="1650180877411" duration="926000" />
     </task>
     <task id="LOCAL-00001" summary="Chapter 18 - init commit">
       <created>1650142623902</created>
@@ -91,7 +91,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650142786939</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Chapter 18 - Creating the Data Model">
+      <created>1650143440057</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1650143440057</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,6 +122,7 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Chapter 18 - init commit" />
     <MESSAGE value="Chapter 18 - Adding NuGet Packages to the Project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Chapter 18 - Adding NuGet Packages to the Project" />
+    <MESSAGE value="Chapter 18 - Creating the Data Model" />
+    <option name="LAST_COMMIT_MESSAGE" value="Chapter 18 - Creating the Data Model" />
   </component>
 </project>
