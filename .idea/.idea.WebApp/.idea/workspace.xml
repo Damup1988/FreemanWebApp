@@ -5,7 +5,8 @@
     <projectFile profileName="WebApp">WebApp.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4fdfeeaa-65db-42ec-9750-fcfa6bf5a363" name="Changes" comment="Chapter 18 - Configuring Entity Framework Core Services and Middleware">
+    <list default="true" id="4fdfeeaa-65db-42ec-9750-fcfa6bf5a363" name="Changes" comment="Chapter 18 - Adding the CSS Framework">
+      <change afterPath="$PROJECT_DIR$/TestMiddleware.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.WebApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebApp/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,7 +74,7 @@
       <updated>1650142495694</updated>
       <workItem from="1650142501731" duration="65000" />
       <workItem from="1650142596073" duration="857000" />
-      <workItem from="1650180877411" duration="2479000" />
+      <workItem from="1650180877411" duration="3764000" />
     </task>
     <task id="LOCAL-00001" summary="Chapter 18 - init commit">
       <created>1650142623902</created>
@@ -117,7 +118,21 @@
       <option name="project" value="LOCAL" />
       <updated>1650200505433</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Chapter 18 - Creating and Applying the Migration">
+      <created>1650219244801</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1650219244801</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Chapter 18 - Adding the CSS Framework">
+      <created>1650219607672</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1650219607672</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,6 +159,8 @@
     <MESSAGE value="Chapter 18 - Creating the Data Model" />
     <MESSAGE value="Chapter 18 - Preparing the Seed Data" />
     <MESSAGE value="Chapter 18 - Configuring Entity Framework Core Services and Middleware" />
-    <option name="LAST_COMMIT_MESSAGE" value="Chapter 18 - Configuring Entity Framework Core Services and Middleware" />
+    <MESSAGE value="Chapter 18 - Creating and Applying the Migration" />
+    <MESSAGE value="Chapter 18 - Adding the CSS Framework" />
+    <option name="LAST_COMMIT_MESSAGE" value="Chapter 18 - Adding the CSS Framework" />
   </component>
 </project>

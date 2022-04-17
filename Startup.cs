@@ -39,6 +39,7 @@ namespace WebApp
             }
 
             app.UseRouting();
+            app.UseMiddleware<TestMiddleware>();
 
             app.UseEndpoints(endpoints =>
             {
