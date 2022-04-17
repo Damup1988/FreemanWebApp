@@ -20,6 +20,7 @@ namespace WebApp.Models
                 
                 context.Products.AddRange(
                     new Product { Category = c1, Supplier = s1, Name = "Life jacket", Price = 48.95m},
+                    new Product { Name = "Kayak", Price = 275, Category = c1, Supplier = s1},
                     new Product { Category = c2, Supplier = s2, Name = "Soccer ball", Price = 19.50m},
                     new Product { Category = c2, Supplier = s2, Name = "Cornet Flags", Price = 34.95m},
                     new Product { Name = "Stadium", Price = 79500, Category = c2, Supplier = s2},
