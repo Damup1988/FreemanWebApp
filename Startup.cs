@@ -29,6 +29,7 @@ namespace WebApp
                 opts.UseSqlServer(Configuration["ConnectionStrings:ProductConnection"]);
                 opts.EnableSensitiveDataLogging();
             });
+            services.AddControllers();
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env, DataContext context)
@@ -47,7 +48,8 @@ namespace WebApp
                 {
                     await context.Response.WriteAsync("Hello World!");
                 });
-                endpoints.MapWebService();
+                //endpoints.MapWebService();
+                endpoints.MapControllers();
             });
             
             SeedData.SeedDataBase(context);
