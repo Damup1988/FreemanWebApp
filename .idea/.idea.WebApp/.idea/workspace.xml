@@ -5,9 +5,9 @@
     <projectFile profileName="WebApp">WebApp.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4fdfeeaa-65db-42ec-9750-fcfa6bf5a363" name="Changes" comment="Chapter 18 - Using Asynchronous Actions">
-      <change afterPath="$PROJECT_DIR$/Models/ProductBindingTarget.cs" afterDir="false" />
+    <list default="true" id="4fdfeeaa-65db-42ec-9750-fcfa6bf5a363" name="Changes" comment="Chapter 18 - Preventing Over-Binding">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.WebApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebApp/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/ProductsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/ProductsController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +81,7 @@
       <updated>1650142495694</updated>
       <workItem from="1650142501731" duration="65000" />
       <workItem from="1650142596073" duration="857000" />
-      <workItem from="1650180877411" duration="19780000" />
+      <workItem from="1650180877411" duration="20994000" />
     </task>
     <task id="LOCAL-00001" summary="Chapter 18 - init commit">
       <created>1650142623902</created>
@@ -202,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650300484900</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Chapter 18 - Preventing Over-Binding">
+      <created>1650302078088</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1650302078088</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,7 +247,8 @@
     <MESSAGE value="Chapter 18 - Model Binding from the Request Body" />
     <MESSAGE value="Chapter 18 - Adding Additional Actions" />
     <MESSAGE value="Chapter 18 - Using Asynchronous Actions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Chapter 18 - Using Asynchronous Actions" />
+    <MESSAGE value="Chapter 18 - Preventing Over-Binding" />
+    <option name="LAST_COMMIT_MESSAGE" value="Chapter 18 - Preventing Over-Binding" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
