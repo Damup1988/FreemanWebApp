@@ -23,10 +23,10 @@ namespace WebApp.Controllers
         }
 
         [HttpGet("{id}")]
-        public Product GetProduct([FromServices] ILogger<ProductsController> logger)
+        public IQueryable<Product> GetProduct([FromServices] ILogger<ProductsController> logger, long id)
         {
             logger.LogDebug("GetProduct Action Invoked");
-            return _dataContext.Products.FirstOrDefault();
+            return _dataContext.Products.Where(p => p.ProductId == id);
         }
     }
 }
