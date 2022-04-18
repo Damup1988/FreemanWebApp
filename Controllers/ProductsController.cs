@@ -1,6 +1,8 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 using WebApp.Models;
 
@@ -17,38 +19,38 @@ namespace WebApp.Controllers
         }
         
         [HttpGet]
-        public IEnumerable<Product> GetProducts()
+        public IAsyncEnumerable<Product> GetProductsAsync()
         {
             return _dataContext.Products;
         }
 
         [HttpGet("{id}")]
-        public IQueryable<Product> GetProduct([FromServices] ILogger<ProductsController> logger, long id)
+        public async Task<Product> GetProductAsync([FromServices] ILogger<ProductsController> logger, long id)
         {
             logger.LogDebug("GetProduct Action Invoked");
-            return _dataContext.Products.Where(p => p.ProductId == id);
+            return await _dataContext.Products.FindAsync(id);
         }
 
         [HttpPost]
-        public void SaveProduct([FromBody]Product product)
+        public async Task SaveProductAsync([FromBody]Product product)
         {
-            _dataContext.Products.Add(product);
-            _dataContext.SaveChanges();
+            await _dataContext.Products.AddAsync(product);
+            await _dataContext.SaveChangesAsync();
         }
 
         [HttpPut]
-        public void UpdateProduct([FromBody]Product product)
+        public async Task UpdateProductAsync([FromBody]Product product)
         {
             _dataContext.Products.Update(product);
-            _dataContext.SaveChanges();
+            await _dataContext.SaveChangesAsync();
         }
 
         [HttpDelete("delete/{id}")]
-        public void DeleteProduct(long id)
+        public async Task DeleteProductAsync(long id)
         {
-            var productToRemove = _dataContext.Products.Where(p => p.ProductId == id);
-            _dataContext.Products.Remove(productToRemove.First());
-            _dataContext.SaveChanges();
+            var productToRemove = await _dataContext.Products.FindAsync(id);
+            _dataContext.Products.Remove(productToRemove);
+            await _dataContext.SaveChangesAsync();
         }
     }
 }
