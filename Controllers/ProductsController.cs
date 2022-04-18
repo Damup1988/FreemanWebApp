@@ -28,5 +28,12 @@ namespace WebApp.Controllers
             logger.LogDebug("GetProduct Action Invoked");
             return _dataContext.Products.Where(p => p.ProductId == id);
         }
+
+        [HttpPost]
+        public void SaveProduct([FromBody]Product product)
+        {
+            _dataContext.Products.Add(product);
+            _dataContext.SaveChanges();
+        }
     }
 }

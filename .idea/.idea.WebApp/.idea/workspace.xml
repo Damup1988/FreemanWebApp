@@ -5,21 +5,14 @@
     <projectFile profileName="WebApp">WebApp.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4fdfeeaa-65db-42ec-9750-fcfa6bf5a363" name="Changes" comment="Chapter 18 - Using Dependency Injection in Controllers">
-      <change beforePath="$PROJECT_DIR$/Controllers/ProductsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/ProductsController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/net5.0/WebApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net5.0/WebApp.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/net5.0/WebApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net5.0/WebApp.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/net5.0/ref/WebApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net5.0/ref/WebApp.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/WebApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/WebApp.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/WebApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/WebApp.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/ref/WebApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/ref/WebApp.dll" afterDir="false" />
-    </list>
+    <list default="true" id="4fdfeeaa-65db-42ec-9750-fcfa6bf5a363" name="Changes" comment="Chapter 18 - Using Model Binding to Access Route Data" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock://C:/_bufer/!dotNet/Freeman/WebApp/Controllers/ProductsController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/_bufer/!dotNet/Freeman/WebApp/Startup.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/obj/Debug/net5.0/.NETCoreApp,Version=v5.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/_bufer/!dotNet/Freeman/WebApp/Controllers/ProductsController.cs" root0="SKIP_HIGHLIGHTING" />
@@ -82,7 +75,7 @@
       <updated>1650142495694</updated>
       <workItem from="1650142501731" duration="65000" />
       <workItem from="1650142596073" duration="857000" />
-      <workItem from="1650180877411" duration="11255000" />
+      <workItem from="1650180877411" duration="12061000" />
     </task>
     <task id="LOCAL-00001" summary="Chapter 18 - init commit">
       <created>1650142623902</created>
@@ -175,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650286108629</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Chapter 18 - Using Model Binding to Access Route Data">
+      <created>1650286358442</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1650286358442</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,6 +209,7 @@
     <MESSAGE value="Chapter 18 - Enabling the MVC Framework" />
     <MESSAGE value="Chapter 18 - Creating a Controller" />
     <MESSAGE value="Chapter 18 - Using Dependency Injection in Controllers" />
-    <option name="LAST_COMMIT_MESSAGE" value="Chapter 18 - Using Dependency Injection in Controllers" />
+    <MESSAGE value="Chapter 18 - Using Model Binding to Access Route Data" />
+    <option name="LAST_COMMIT_MESSAGE" value="Chapter 18 - Using Model Binding to Access Route Data" />
   </component>
 </project>
