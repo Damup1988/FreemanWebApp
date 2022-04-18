@@ -32,9 +32,9 @@ namespace WebApp.Controllers
         }
 
         [HttpPost]
-        public async Task SaveProductAsync([FromBody]Product product)
+        public async Task SaveProductAsync([FromBody]ProductBindingTarget product)
         {
-            await _dataContext.Products.AddAsync(product);
+            await _dataContext.Products.AddAsync(product.ToProduct());
             await _dataContext.SaveChangesAsync();
         }
 

@@ -5,9 +5,9 @@
     <projectFile profileName="WebApp">WebApp.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4fdfeeaa-65db-42ec-9750-fcfa6bf5a363" name="Changes" comment="Chapter 18 - Adding Additional Actions">
+    <list default="true" id="4fdfeeaa-65db-42ec-9750-fcfa6bf5a363" name="Changes" comment="Chapter 18 - Using Asynchronous Actions">
+      <change afterPath="$PROJECT_DIR$/Models/ProductBindingTarget.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.WebApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebApp/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controllers/ProductsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/ProductsController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +20,7 @@
     <setting file="file://$PROJECT_DIR$/obj/Debug/net5.0/.NETCoreApp,Version=v5.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/_bufer/!dotNet/Freeman/WebApp/Controllers/ProductsController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/_bufer/!dotNet/Freeman/WebApp/Startup.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/_bufer/!dotNet/Freeman/WebApp/Controllers/ProductsController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/_bufer/!dotNet/Freeman/WebApp/Controllers/ProductsController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/_bufer/!dotNet/Freeman/WebApp/Controllers/ProductsController.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -80,7 +81,7 @@
       <updated>1650142495694</updated>
       <workItem from="1650142501731" duration="65000" />
       <workItem from="1650142596073" duration="857000" />
-      <workItem from="1650180877411" duration="18521000" />
+      <workItem from="1650180877411" duration="19780000" />
     </task>
     <task id="LOCAL-00001" summary="Chapter 18 - init commit">
       <created>1650142623902</created>
@@ -194,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650296925419</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Chapter 18 - Using Asynchronous Actions">
+      <created>1650300484900</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1650300484900</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -231,7 +239,8 @@
     <MESSAGE value="Chapter 18 - Using Model Binding to Access Route Data" />
     <MESSAGE value="Chapter 18 - Model Binding from the Request Body" />
     <MESSAGE value="Chapter 18 - Adding Additional Actions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Chapter 18 - Adding Additional Actions" />
+    <MESSAGE value="Chapter 18 - Using Asynchronous Actions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Chapter 18 - Using Asynchronous Actions" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
