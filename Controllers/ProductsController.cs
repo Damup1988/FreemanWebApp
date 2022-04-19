@@ -61,5 +61,11 @@ namespace WebApp.Controllers
             _dataContext.Products.Remove(productToRemove);
             await _dataContext.SaveChangesAsync();
         }
+
+        [HttpGet("redirect")]
+        public IActionResult Redirect()
+        {
+            return Redirect("1");
+        }
     }
 }
