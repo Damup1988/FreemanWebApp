@@ -41,10 +41,16 @@ namespace WebApp.Controllers
         [HttpPost]
         public async Task<IActionResult> SaveProductAsync([FromBody]ProductBindingTarget product)
         {
-            var productToSave = product.ToProduct();
-            await _dataContext.Products.AddAsync(productToSave);
-            await _dataContext.SaveChangesAsync();
-            return Ok(productToSave);
+            if (ModelState.IsValid)
+            {
+                
+                var productToSave = product.ToProduct();
+                await _dataContext.Products.AddAsync(productToSave);
+                await _dataContext.SaveChangesAsync();
+                return Ok(productToSave);
+            }
+
+            return BadRequest(ModelState);
         }
 
         [HttpPut]
