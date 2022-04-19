@@ -8,6 +8,7 @@ using WebApp.Models;
 
 namespace WebApp.Controllers
 {
+    [ApiController]
     [Route("api/[controller]")]
     public class ProductsController : ControllerBase
     {
@@ -39,22 +40,16 @@ namespace WebApp.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> SaveProductAsync([FromBody]ProductBindingTarget product)
+        public async Task<IActionResult> SaveProductAsync(ProductBindingTarget product)
         {
-            if (ModelState.IsValid)
-            {
-                
-                var productToSave = product.ToProduct();
-                await _dataContext.Products.AddAsync(productToSave);
-                await _dataContext.SaveChangesAsync();
-                return Ok(productToSave);
-            }
-
-            return BadRequest(ModelState);
+            var productToSave = product.ToProduct();
+            await _dataContext.Products.AddAsync(productToSave);
+            await _dataContext.SaveChangesAsync();
+            return Ok(productToSave);
         }
 
         [HttpPut]
-        public async Task UpdateProductAsync([FromBody]Product product)
+        public async Task UpdateProductAsync(Product product)
         {
             _dataContext.Products.Update(product);
             await _dataContext.SaveChangesAsync();
