@@ -35,7 +35,14 @@ namespace WebApp.Controllers
             }
             else
             {
-                return Ok(productToReturn);
+                return Ok(new
+                {
+                    ProductId = productToReturn.ProductId,
+                    Name = productToReturn.Name,
+                    Price = productToReturn.Price,
+                    CategoryId = productToReturn.CategoryId,
+                    SupplierId = productToReturn.SupplierId
+                });
             }
         }
 
