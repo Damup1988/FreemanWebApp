@@ -19,9 +19,14 @@ namespace WebApp.Controllers
         [HttpGet("{id}")]
         public async Task<Supplier> GetSupplierAsync(long id)
         {
-            return await _dataContext.Suppliers.Include(s => 
-                s.Products).FirstAsync(s => 
-                s.SupplierId == id);
+            var supplier = await _dataContext.Suppliers.Include(s => s.Products).
+                FirstAsync(s => s.SupplierId == id);
+            foreach (var p in supplier.Products)
+            {
+                p.Supplier = null;
+            }
+
+            return supplier;
         }
     }
 }
