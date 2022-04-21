@@ -28,12 +28,19 @@ namespace WebApp
             services.AddDbContext<DataContext>(opts =>
             {
                 opts.UseSqlServer(Configuration["ConnectionStrings:ProductConnection"]);
-                opts.EnableSensitiveDataLogging();
+                opts.EnableSensitiveDataLogging(true);
             });
-            services.AddControllers();
-            services.Configure<JsonOptions>(opts =>
+            //services.AddControllers();
+            //services.Configure<JsonOptions>(opts =>
+            //{
+            //    opts.JsonSerializerOptions.IgnoreNullValues = true;
+            //});
+
+            services.AddControllers().AddNewtonsoftJson();
+
+            services.Configure<MvcNewtonsoftJsonOptions>(opts =>
             {
-                opts.JsonSerializerOptions.IgnoreNullValues = true;
+                opts.SerializerSettings.NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore;
             });
         }
 
