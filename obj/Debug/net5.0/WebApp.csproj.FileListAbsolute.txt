@@ -55,3 +55,6 @@ C:\_bufer\!dotNet\Freeman\WebApp\obj\Debug\net5.0\ref\WebApp.dll
 C:\_bufer\!dotNet\Freeman\WebApp\obj\Debug\net5.0\WebApp.pdb
 C:\_bufer\!dotNet\Freeman\WebApp\obj\Debug\net5.0\WebApp.genruntimeconfig.cache
 C:\_bufer\!dotNet\Freeman\WebApp\bin\Debug\net5.0\libman.json
+C:\_bufer\!dotNet\Freeman\WebApp\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\_bufer\!dotNet\Freeman\WebApp\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\_bufer\!dotNet\Freeman\WebApp\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
