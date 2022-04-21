@@ -5,8 +5,8 @@
     <projectFile profileName="WebApp">WebApp.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4fdfeeaa-65db-42ec-9750-fcfa6bf5a363" name="Changes" comment="Chapter 18 - Applying the API Controller Attribute">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.WebApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebApp/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="4fdfeeaa-65db-42ec-9750-fcfa6bf5a363" name="Changes" comment="Chapter 18 - Projecting Selected Properties">
+      <change beforePath="$PROJECT_DIR$/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Startup.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +17,7 @@
     <setting file="mock://C:/_bufer/!dotNet/Freeman/WebApp/Startup.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/_bufer/!dotNet/Freeman/WebApp/Models/ProductBindingTarget.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/_bufer/!dotNet/Freeman/WebApp/Startup.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/_bufer/!dotNet/Freeman/WebApp/Controllers/ProductsController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/_bufer/!dotNet/Freeman/WebApp/Controllers/ProductsController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/_bufer/!dotNet/Freeman/WebApp/Controllers/ProductsController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/obj/Debug/net5.0/.NETCoreApp,Version=v5.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
@@ -85,7 +86,7 @@
       <updated>1650142495694</updated>
       <workItem from="1650142501731" duration="65000" />
       <workItem from="1650142596073" duration="857000" />
-      <workItem from="1650180877411" duration="25068000" />
+      <workItem from="1650180877411" duration="25388000" />
     </task>
     <task id="LOCAL-00001" summary="Chapter 18 - init commit">
       <created>1650142623902</created>
@@ -248,7 +249,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650372255166</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Chapter 18 - Projecting Selected Properties">
+      <created>1650543707810</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1650543707810</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -292,20 +300,21 @@
     <MESSAGE value="Chapter 18 - Redirecting to an Action Method" />
     <MESSAGE value="Chapter 18 - Validating Data" />
     <MESSAGE value="Chapter 18 - Applying the API Controller Attribute" />
-    <option name="LAST_COMMIT_MESSAGE" value="Chapter 18 - Applying the API Controller Attribute" />
+    <MESSAGE value="Chapter 18 - Projecting Selected Properties" />
+    <option name="LAST_COMMIT_MESSAGE" value="Chapter 18 - Projecting Selected Properties" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Startup.cs</url>
-          <line>51</line>
+          <line>56</line>
           <properties documentPath="C:\_bufer\!dotNet\Freeman\WebApp\Startup.cs" initialLine="51" containingFunctionPresentation="lambda expression inside method 'Configure'">
             <startOffsets>
-              <option value="1568" />
+              <option value="1750" />
             </startOffsets>
             <endOffsets>
-              <option value="1595" />
+              <option value="1777" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="2" />
