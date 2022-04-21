@@ -36,7 +36,7 @@ namespace WebApp
             //    opts.JsonSerializerOptions.IgnoreNullValues = true;
             //});
 
-            services.AddControllers().AddNewtonsoftJson();
+            services.AddControllers().AddNewtonsoftJson().AddXmlSerializerFormatters();
 
             services.Configure<MvcNewtonsoftJsonOptions>(opts =>
             {
