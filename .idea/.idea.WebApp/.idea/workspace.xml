@@ -5,8 +5,8 @@
     <projectFile profileName="WebApp">WebApp.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4fdfeeaa-65db-42ec-9750-fcfa6bf5a363" name="Changes" comment="Chapter 21 - Configuring the Application">
-      <change afterPath="$PROJECT_DIR$/Controllers/HomeController.cs" afterDir="false" />
+    <list default="true" id="4fdfeeaa-65db-42ec-9750-fcfa6bf5a363" name="Changes" comment="Chapter 21 - Creating an HTML Controller">
+      <change beforePath="$PROJECT_DIR$/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Startup.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -313,7 +313,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650919060108</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Chapter 21 - Creating an HTML Controller">
+      <created>1650920833462</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1650920833462</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -347,7 +354,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Chapter 18 - Adding the CSS Framework" />
     <MESSAGE value="Chapter 18 - Configuring the Request Pipeline" />
     <MESSAGE value="Chapter 18 - Creating a Web Service Using a Custom Endpoint" />
     <MESSAGE value="Chapter 18 - Enabling the MVC Framework" />
@@ -372,6 +378,7 @@
     <MESSAGE value="Chapter 20 - Understanding the Default Content Policy" />
     <MESSAGE value="Chapter 21 - Preparing for This Chapter" />
     <MESSAGE value="Chapter 21 - Configuring the Application" />
-    <option name="LAST_COMMIT_MESSAGE" value="Chapter 21 - Configuring the Application" />
+    <MESSAGE value="Chapter 21 - Creating an HTML Controller" />
+    <option name="LAST_COMMIT_MESSAGE" value="Chapter 21 - Creating an HTML Controller" />
   </component>
 </project>
