@@ -30,17 +30,18 @@ namespace WebApp
                 opts.UseSqlServer(Configuration["ConnectionStrings:ProductConnection"]);
                 opts.EnableSensitiveDataLogging(true);
             });
-            //services.AddControllers();
-            //services.Configure<JsonOptions>(opts =>
-            //{
-            //    opts.JsonSerializerOptions.IgnoreNullValues = true;
-            //});
 
             services.AddControllers().AddNewtonsoftJson().AddXmlSerializerFormatters();
 
             services.Configure<MvcNewtonsoftJsonOptions>(opts =>
             {
                 opts.SerializerSettings.NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore;
+            });
+
+            services.Configure<MvcOptions>(opts =>
+            {
+                opts.RespectBrowserAcceptHeader = true;
+                opts.ReturnHttpNotAcceptable = true;
             });
         }
 

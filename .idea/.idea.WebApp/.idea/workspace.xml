@@ -5,8 +5,9 @@
     <projectFile profileName="WebApp">WebApp.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4fdfeeaa-65db-42ec-9750-fcfa6bf5a363" name="Changes" comment="Chapter 20 - Understanding the Default Content Policy">
+    <list default="true" id="4fdfeeaa-65db-42ec-9750-fcfa6bf5a363" name="Changes" comment="Chapter 20 - Enabling XML Formatting">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.WebApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebApp/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Startup.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +22,7 @@
     <setting file="mock://C:/_bufer/!dotNet/Freeman/WebApp/Controllers/SuppliersController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/_bufer/!dotNet/Freeman/WebApp/Controllers/ProductsController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/_bufer/!dotNet/Freeman/WebApp/Controllers/ProductsController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/_bufer/!dotNet/Freeman/WebApp/Controllers/ContentController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/obj/Debug/net5.0/.NETCoreApp,Version=v5.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/_bufer/!dotNet/Freeman/WebApp/Controllers/ProductsController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/_bufer/!dotNet/Freeman/WebApp/Startup.cs" root0="SKIP_HIGHLIGHTING" />
@@ -89,7 +91,7 @@
       <updated>1650142495694</updated>
       <workItem from="1650142501731" duration="65000" />
       <workItem from="1650142596073" duration="857000" />
-      <workItem from="1650180877411" duration="31437000" />
+      <workItem from="1650180877411" duration="34374000" />
     </task>
     <task id="LOCAL-00001" summary="Chapter 18 - init commit">
       <created>1650142623902</created>
@@ -308,7 +310,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650570212259</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Chapter 20 - Enabling XML Formatting">
+      <created>1650574828556</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1650574828556</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -330,7 +339,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Chapter 18 - Configuring Entity Framework Core Services and Middleware" />
     <MESSAGE value="Chapter 18 - Creating and Applying the Migration" />
     <MESSAGE value="Chapter 18 - Adding the CSS Framework" />
     <MESSAGE value="Chapter 18 - Configuring the Request Pipeline" />
@@ -355,20 +363,21 @@
     <MESSAGE value="Chapter 20 - Breaking Circular References in Related Data" />
     <MESSAGE value="Chapter 20 - Installing and Configuring the JSON Patch Package" />
     <MESSAGE value="Chapter 20 - Understanding the Default Content Policy" />
-    <option name="LAST_COMMIT_MESSAGE" value="Chapter 20 - Understanding the Default Content Policy" />
+    <MESSAGE value="Chapter 20 - Enabling XML Formatting" />
+    <option name="LAST_COMMIT_MESSAGE" value="Chapter 20 - Enabling XML Formatting" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Startup.cs</url>
-          <line>63</line>
+          <line>64</line>
           <properties documentPath="C:\_bufer\!dotNet\Freeman\WebApp\Startup.cs" initialLine="51" containingFunctionPresentation="lambda expression inside method 'Configure'">
             <startOffsets>
-              <option value="2022" />
+              <option value="2043" />
             </startOffsets>
             <endOffsets>
-              <option value="2049" />
+              <option value="2070" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="2" />
