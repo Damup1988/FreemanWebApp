@@ -6,7 +6,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4fdfeeaa-65db-42ec-9750-fcfa6bf5a363" name="Changes" comment="Chapter 20 - Requesting a Format in the URL">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.WebApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebApp/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Controllers/ContentController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/ContentController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,6 +15,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="mock://C:/_bufer/!dotNet/Freeman/WebApp/Startup.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/_bufer/!dotNet/Freeman/WebApp/Controllers/ContentController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/_bufer/!dotNet/Freeman/WebApp/Controllers/ContentController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/_bufer/!dotNet/Freeman/WebApp/Models/ProductBindingTarget.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/_bufer/!dotNet/Freeman/WebApp/Startup.cs" root0="SKIP_HIGHLIGHTING" />
@@ -94,7 +94,7 @@
       <updated>1650142495694</updated>
       <workItem from="1650142501731" duration="65000" />
       <workItem from="1650142596073" duration="857000" />
-      <workItem from="1650180877411" duration="35849000" />
+      <workItem from="1650180877411" duration="36177000" />
     </task>
     <task id="LOCAL-00001" summary="Chapter 18 - init commit">
       <created>1650142623902</created>
@@ -341,7 +341,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650905383587</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Chapter 20 - Requesting a Format in the URL">
+      <created>1650912249471</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1650912249471</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
