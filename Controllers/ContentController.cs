@@ -9,7 +9,7 @@ namespace WebApp.Controllers
     [Route("api/[controller]")]
     public class ContentController : ControllerBase
     {
-        private DataContext _dataContext;
+        private readonly DataContext _dataContext;
 
         public ContentController(DataContext dataContext)
         {
@@ -20,6 +20,7 @@ namespace WebApp.Controllers
         public string GetString() => "This is a string response";
 
         [HttpGet("object")]
+        [Produces("application/json")]
         public async Task<ProductBindingTarget> GetObject()
         {
             var p = await _dataContext.Products.FirstAsync();
