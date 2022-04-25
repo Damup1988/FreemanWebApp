@@ -19,7 +19,8 @@ namespace WebApp.Controllers
         [HttpGet("string")]
         public string GetString() => "This is a string response";
 
-        [HttpGet("object")]
+        [HttpGet("object/{format?}")]
+        [FormatFilter]
         [Produces("application/json")]
         public async Task<ProductBindingTarget> GetObject()
         {
