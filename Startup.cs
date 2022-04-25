@@ -10,6 +10,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.OpenApi.Models;
 using WebApp.Models;
 
 namespace WebApp
@@ -43,6 +44,15 @@ namespace WebApp
                 opts.RespectBrowserAcceptHeader = true;
                 opts.ReturnHttpNotAcceptable = true;
             });
+
+            services.AddSwaggerGen(opts =>
+            {
+                opts.SwaggerDoc("v1", 
+                    new OpenApiInfo
+                {
+                    Title = "WebApp", Version = "v1"
+                });
+            });
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env, DataContext context)
@@ -63,6 +73,11 @@ namespace WebApp
                 });
                 //endpoints.MapWebService();
                 endpoints.MapControllers();
+            });
+            app.UseSwagger();
+            app.UseSwaggerUI(opts =>
+            {
+                opts.SwaggerEndpoint("/swagger/v1/swagger.json", "WebApp");
             });
             
             SeedData.SeedDataBase(context);

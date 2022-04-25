@@ -5,8 +5,19 @@
     <projectFile profileName="WebApp">WebApp.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4fdfeeaa-65db-42ec-9750-fcfa6bf5a363" name="Changes" comment="Chapter 20 - Requesting a Format in the URL">
+    <list default="true" id="4fdfeeaa-65db-42ec-9750-fcfa6bf5a363" name="Changes" comment="Chapter 20 - Restricting the Formats Received by an Action Method">
       <change beforePath="$PROJECT_DIR$/Controllers/ContentController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/ContentController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/WebApp.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/WebApp.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/WebApp.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/WebApp.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/WebApp.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/WebApp.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/WebApp.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/obj/WebApp.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/WebApp.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/obj/WebApp.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +36,7 @@
     <setting file="mock://C:/_bufer/!dotNet/Freeman/WebApp/Controllers/ContentController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/_bufer/!dotNet/Freeman/WebApp/Controllers/ProductsController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/_bufer/!dotNet/Freeman/WebApp/Controllers/ProductsController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/_bufer/!dotNet/Freeman/WebApp/Controllers/ContentController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/_bufer/!dotNet/Freeman/WebApp/Controllers/ContentController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/obj/Debug/net5.0/.NETCoreApp,Version=v5.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/_bufer/!dotNet/Freeman/WebApp/Controllers/ProductsController.cs" root0="SKIP_HIGHLIGHTING" />
@@ -94,7 +106,7 @@
       <updated>1650142495694</updated>
       <workItem from="1650142501731" duration="65000" />
       <workItem from="1650142596073" duration="857000" />
-      <workItem from="1650180877411" duration="36177000" />
+      <workItem from="1650180877411" duration="36722000" />
     </task>
     <task id="LOCAL-00001" summary="Chapter 18 - init commit">
       <created>1650142623902</created>
@@ -348,7 +360,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650912249471</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Chapter 20 - Restricting the Formats Received by an Action Method">
+      <created>1650912558493</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1650912558493</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -370,7 +389,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Chapter 18 - Creating a Web Service Using a Custom Endpoint" />
     <MESSAGE value="Chapter 18 - Enabling the MVC Framework" />
     <MESSAGE value="Chapter 18 - Creating a Controller" />
     <MESSAGE value="Chapter 18 - Using Dependency Injection in Controllers" />
@@ -395,20 +413,21 @@
     <MESSAGE value="Chapter 20 - Fully Respecting Accept Headers" />
     <MESSAGE value="Chapter 20 - Specifying an Action Result Format" />
     <MESSAGE value="Chapter 20 - Requesting a Format in the URL" />
-    <option name="LAST_COMMIT_MESSAGE" value="Chapter 20 - Requesting a Format in the URL" />
+    <MESSAGE value="Chapter 20 - Restricting the Formats Received by an Action Method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Chapter 20 - Restricting the Formats Received by an Action Method" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Startup.cs</url>
-          <line>64</line>
+          <line>74</line>
           <properties documentPath="C:\_bufer\!dotNet\Freeman\WebApp\Startup.cs" initialLine="51" containingFunctionPresentation="lambda expression inside method 'Configure'">
             <startOffsets>
-              <option value="2043" />
+              <option value="2315" />
             </startOffsets>
             <endOffsets>
-              <option value="2070" />
+              <option value="2342" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="2" />
