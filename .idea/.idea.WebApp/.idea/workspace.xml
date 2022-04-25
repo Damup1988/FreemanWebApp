@@ -5,19 +5,10 @@
     <projectFile profileName="WebApp">WebApp.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4fdfeeaa-65db-42ec-9750-fcfa6bf5a363" name="Changes" comment="Chapter 20 - Restricting the Formats Received by an Action Method">
-      <change beforePath="$PROJECT_DIR$/Controllers/ContentController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/ContentController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Startup.cs" afterDir="false" />
+    <list default="true" id="4fdfeeaa-65db-42ec-9750-fcfa6bf5a363" name="Changes" comment="Chapter 20 - Installing and Configuring the Swashbuckle Package">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.WebApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebApp/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/ProductsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/ProductsController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/WebApp.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/WebApp.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/WebApp.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/WebApp.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/WebApp.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/WebApp.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/WebApp.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/obj/WebApp.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/WebApp.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/obj/WebApp.csproj.nuget.g.targets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +37,7 @@
     <setting file="mock://C:/_bufer/!dotNet/Freeman/WebApp/Controllers/ProductsController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/_bufer/!dotNet/Freeman/WebApp/Controllers/SuppliersController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/_bufer/!dotNet/Freeman/WebApp/Controllers/ProductsController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/_bufer/!dotNet/Freeman/WebApp/Controllers/ContentController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/_bufer/!dotNet/Freeman/WebApp/Controllers/ProductsController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/_bufer/!dotNet/Freeman/WebApp/Controllers/ProductsController.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -106,7 +98,7 @@
       <updated>1650142495694</updated>
       <workItem from="1650142501731" duration="65000" />
       <workItem from="1650142596073" duration="857000" />
-      <workItem from="1650180877411" duration="36722000" />
+      <workItem from="1650180877411" duration="37377000" />
     </task>
     <task id="LOCAL-00001" summary="Chapter 18 - init commit">
       <created>1650142623902</created>
@@ -367,7 +359,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650912558493</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Chapter 20 - Installing and Configuring the Swashbuckle Package">
+      <created>1650913283520</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1650913283520</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -389,7 +388,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Chapter 18 - Enabling the MVC Framework" />
     <MESSAGE value="Chapter 18 - Creating a Controller" />
     <MESSAGE value="Chapter 18 - Using Dependency Injection in Controllers" />
     <MESSAGE value="Chapter 18 - Using Model Binding to Access Route Data" />
@@ -414,7 +412,8 @@
     <MESSAGE value="Chapter 20 - Specifying an Action Result Format" />
     <MESSAGE value="Chapter 20 - Requesting a Format in the URL" />
     <MESSAGE value="Chapter 20 - Restricting the Formats Received by an Action Method" />
-    <option name="LAST_COMMIT_MESSAGE" value="Chapter 20 - Restricting the Formats Received by an Action Method" />
+    <MESSAGE value="Chapter 20 - Installing and Configuring the Swashbuckle Package" />
+    <option name="LAST_COMMIT_MESSAGE" value="Chapter 20 - Installing and Configuring the Swashbuckle Package" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

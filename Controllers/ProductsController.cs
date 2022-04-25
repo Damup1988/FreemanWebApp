@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
@@ -12,7 +13,7 @@ namespace WebApp.Controllers
     [Route("api/[controller]")]
     public class ProductsController : ControllerBase
     {
-        private DataContext _dataContext;
+        private readonly DataContext _dataContext;
 
         public ProductsController(DataContext dataContext)
         {
@@ -26,6 +27,8 @@ namespace WebApp.Controllers
         }
 
         [HttpGet("{id}")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
         public async Task<IActionResult> GetProductAsync([FromServices] ILogger<ProductsController> logger, long id)
         {
             var productToReturn = await _dataContext.Products.FindAsync(id);
