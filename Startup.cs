@@ -32,7 +32,7 @@ namespace WebApp
                 opts.EnableSensitiveDataLogging(true);
             });
 
-            services.AddControllers();
+            services.AddControllersWithViews().AddRazorRuntimeCompilation();
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env, DataContext context)
@@ -48,6 +48,7 @@ namespace WebApp
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
+                endpoints.MapControllerRoute("Default", "{controller=Home}/{action=Index}/{id}");
             });
             
             SeedData.SeedDataBase(context);
