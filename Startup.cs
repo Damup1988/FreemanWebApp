@@ -32,27 +32,7 @@ namespace WebApp
                 opts.EnableSensitiveDataLogging(true);
             });
 
-            services.AddControllers().AddNewtonsoftJson().AddXmlSerializerFormatters();
-
-            services.Configure<MvcNewtonsoftJsonOptions>(opts =>
-            {
-                opts.SerializerSettings.NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore;
-            });
-
-            services.Configure<MvcOptions>(opts =>
-            {
-                opts.RespectBrowserAcceptHeader = true;
-                opts.ReturnHttpNotAcceptable = true;
-            });
-
-            services.AddSwaggerGen(opts =>
-            {
-                opts.SwaggerDoc("v1", 
-                    new OpenApiInfo
-                {
-                    Title = "WebApp", Version = "v1"
-                });
-            });
+            services.AddControllers();
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env, DataContext context)
@@ -62,22 +42,12 @@ namespace WebApp
                 app.UseDeveloperExceptionPage();
             }
 
+            app.UseStaticFiles();
             app.UseRouting();
-            app.UseMiddleware<TestMiddleware>();
 
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapGet("/", async context =>
-                {
-                    await context.Response.WriteAsync("Hello World!");
-                });
-                //endpoints.MapWebService();
                 endpoints.MapControllers();
-            });
-            app.UseSwagger();
-            app.UseSwaggerUI(opts =>
-            {
-                opts.SwaggerEndpoint("/swagger/v1/swagger.json", "WebApp");
             });
             
             SeedData.SeedDataBase(context);

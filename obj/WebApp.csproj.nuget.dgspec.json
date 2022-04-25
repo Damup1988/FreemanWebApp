@@ -1,29 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\_bufer\\!dotNet\\Freeman\\WebApp\\WebApp.csproj": {}
+    "C:\\_oneDrive\\OneDrive\\_Coding\\_Projects\\WebApp\\WebApp.csproj": {}
   },
   "projects": {
-    "C:\\_bufer\\!dotNet\\Freeman\\WebApp\\WebApp.csproj": {
+    "C:\\_oneDrive\\OneDrive\\_Coding\\_Projects\\WebApp\\WebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\_bufer\\!dotNet\\Freeman\\WebApp\\WebApp.csproj",
+        "projectUniqueName": "C:\\_oneDrive\\OneDrive\\_Coding\\_Projects\\WebApp\\WebApp.csproj",
         "projectName": "WebApp",
-        "projectPath": "C:\\_bufer\\!dotNet\\Freeman\\WebApp\\WebApp.csproj",
-        "packagesPath": "C:\\Users\\safarovd\\.nuget\\packages\\",
-        "outputPath": "C:\\_bufer\\!dotNet\\Freeman\\WebApp\\obj\\",
+        "projectPath": "C:\\_oneDrive\\OneDrive\\_Coding\\_Projects\\WebApp\\WebApp.csproj",
+        "packagesPath": "C:\\Users\\damup1988\\.nuget\\packages\\",
+        "outputPath": "C:\\_oneDrive\\OneDrive\\_Coding\\_Projects\\WebApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\safarovd\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\damup1988\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://pkgs.dev.azure.com/GDC-Russia/8377112a-90a9-4591-b0bb-d16ed17cdc4c/_packaging/TicketManager/nuget/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
@@ -42,6 +39,10 @@
           "targetAlias": "net5.0",
           "dependencies": {
             "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[5.0.16, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
               "target": "Package",
               "version": "[5.0.16, )"
             },
@@ -70,12 +71,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[5.0.12, 5.0.12]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -84,7 +79,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }
