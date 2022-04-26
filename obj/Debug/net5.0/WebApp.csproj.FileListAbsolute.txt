@@ -443,3 +443,13 @@ C:\_oneDrive\OneDrive\_Coding\_Projects\WebApp\bin\Debug\net5.0\ru\Microsoft.Cod
 C:\_oneDrive\OneDrive\_Coding\_Projects\WebApp\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
 C:\_oneDrive\OneDrive\_Coding\_Projects\WebApp\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
 C:\_oneDrive\OneDrive\_Coding\_Projects\WebApp\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\_oneDrive\OneDrive\_Coding\_Projects\WebApp\bin\Debug\net5.0\WebApp.Views.dll
+C:\_oneDrive\OneDrive\_Coding\_Projects\WebApp\bin\Debug\net5.0\WebApp.Views.pdb
+C:\_oneDrive\OneDrive\_Coding\_Projects\WebApp\obj\Debug\net5.0\WebApp.RazorAssemblyInfo.cache
+C:\_oneDrive\OneDrive\_Coding\_Projects\WebApp\obj\Debug\net5.0\WebApp.RazorAssemblyInfo.cs
+C:\_oneDrive\OneDrive\_Coding\_Projects\WebApp\obj\Debug\net5.0\WebApp.TagHelpers.input.cache
+C:\_oneDrive\OneDrive\_Coding\_Projects\WebApp\obj\Debug\net5.0\WebApp.TagHelpers.output.cache
+C:\_oneDrive\OneDrive\_Coding\_Projects\WebApp\obj\Debug\net5.0\WebApp.RazorCoreGenerate.cache
+C:\_oneDrive\OneDrive\_Coding\_Projects\WebApp\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\_oneDrive\OneDrive\_Coding\_Projects\WebApp\obj\Debug\net5.0\WebApp.RazorTargetAssemblyInfo.cs
+C:\_oneDrive\OneDrive\_Coding\_Projects\WebApp\obj\Debug\net5.0\WebApp.Views.pdb
