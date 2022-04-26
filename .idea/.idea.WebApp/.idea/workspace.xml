@@ -5,7 +5,10 @@
     <projectFile profileName="WebApp">WebApp.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4fdfeeaa-65db-42ec-9750-fcfa6bf5a363" name="Changes" comment="Chapter 21 - Creating a Razor View" />
+    <list default="true" id="4fdfeeaa-65db-42ec-9750-fcfa6bf5a363" name="Changes" comment="Chapter 21 - Modifying a Razor View">
+      <change afterPath="$PROJECT_DIR$/Views/Home/Watersports.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/HomeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/HomeController.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,6 +24,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/obj/Debug/net5.0/Razor/Views/Home/Index.cshtml.g.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/obj/Debug/net5.0/.NETCoreApp,Version=v5.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/_oneDrive/OneDrive/_Coding/_Projects/WebApp/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -80,7 +84,7 @@
       <workItem from="1650142501731" duration="65000" />
       <workItem from="1650142596073" duration="857000" />
       <workItem from="1650180877411" duration="31437000" />
-      <workItem from="1651008873167" duration="1006000" />
+      <workItem from="1651008873167" duration="1543000" />
     </task>
     <task id="LOCAL-00001" summary="Chapter 18 - init commit">
       <created>1650142623902</created>
@@ -334,7 +338,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651009654332</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Chapter 21 - Modifying a Razor View">
+      <created>1651010011078</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1651010011078</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -368,7 +379,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Chapter 18 - Enabling the MVC Framework" />
     <MESSAGE value="Chapter 18 - Creating a Controller" />
     <MESSAGE value="Chapter 18 - Using Dependency Injection in Controllers" />
     <MESSAGE value="Chapter 18 - Using Model Binding to Access Route Data" />
@@ -393,6 +403,7 @@
     <MESSAGE value="Chapter 21 - Creating an HTML Controller" />
     <MESSAGE value="Chapter 21 - Understanding Convention Routing" />
     <MESSAGE value="Chapter 21 - Creating a Razor View" />
-    <option name="LAST_COMMIT_MESSAGE" value="Chapter 21 - Creating a Razor View" />
+    <MESSAGE value="Chapter 21 - Modifying a Razor View" />
+    <option name="LAST_COMMIT_MESSAGE" value="Chapter 21 - Modifying a Razor View" />
   </component>
 </project>

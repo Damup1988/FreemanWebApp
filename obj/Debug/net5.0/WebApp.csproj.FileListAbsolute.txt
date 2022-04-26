@@ -453,3 +453,4 @@ C:\_oneDrive\OneDrive\_Coding\_Projects\WebApp\obj\Debug\net5.0\WebApp.RazorCore
 C:\_oneDrive\OneDrive\_Coding\_Projects\WebApp\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
 C:\_oneDrive\OneDrive\_Coding\_Projects\WebApp\obj\Debug\net5.0\WebApp.RazorTargetAssemblyInfo.cs
 C:\_oneDrive\OneDrive\_Coding\_Projects\WebApp\obj\Debug\net5.0\WebApp.Views.pdb
+C:\_oneDrive\OneDrive\_Coding\_Projects\WebApp\obj\Debug\net5.0\Razor\Views\Home\Watersports.cshtml.g.cs

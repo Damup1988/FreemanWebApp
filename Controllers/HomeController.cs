@@ -15,7 +15,15 @@ namespace WebApp.Controllers
 
         public async Task<IActionResult> Index(long id = 1)
         {
-            return View(await _context.Products.FindAsync(id));
+            var prod = await _context.Products.FindAsync(id);
+            if (prod.CategoryId == 1)
+            {
+                return View("Watersports", prod);
+            }
+            else
+            {
+                return View(prod);
+            }
         }
     }
 }
