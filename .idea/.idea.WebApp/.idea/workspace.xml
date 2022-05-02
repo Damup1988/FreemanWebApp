@@ -5,10 +5,13 @@
     <projectFile profileName="WebApp">WebApp.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4fdfeeaa-65db-42ec-9750-fcfa6bf5a363" name="Changes" comment="Chapter 21 - Selecting a View by Name">
-      <change afterPath="$PROJECT_DIR$/Controllers/SecondController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Views/Shared/Common.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controllers/HomeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/HomeController.cs" afterDir="false" />
+    <list default="true" id="4fdfeeaa-65db-42ec-9750-fcfa6bf5a363" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Views/_ViewImports.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Views/_ViewImports.cshtml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.WebApp/.idea/shelf/Uncommitted_changes_before_Checkout_at_4_25_2022_10_15_PM_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.WebApp/.idea/shelf/Uncommitted_changes_before_Checkout_at_4_25_2022_10_15_PM__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.WebApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebApp/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Home/Watersports.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Home/Watersports.cshtml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,8 +29,7 @@
     <setting file="file://$PROJECT_DIR$/obj/Debug/net5.0/Razor/Views/Home/Index.cshtml.g.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/obj/Debug/net5.0/.NETCoreApp,Version=v5.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/obj/Debug/net5.0/Razor/Views/Home/Watersports.cshtml.g.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/_oneDrive/OneDrive/_Coding/_Projects/WebApp/Controllers/HomeController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/_oneDrive/OneDrive/_Coding/_Projects/WebApp/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/obj/Debug/net5.0/Razor/Views/Shared/Common.cshtml.g.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -87,7 +89,8 @@
       <workItem from="1650142501731" duration="65000" />
       <workItem from="1650142596073" duration="857000" />
       <workItem from="1650180877411" duration="31437000" />
-      <workItem from="1651008873167" duration="2026000" />
+      <workItem from="1651008873167" duration="2189000" />
+      <workItem from="1651525254514" duration="1153000" />
     </task>
     <task id="LOCAL-00001" summary="Chapter 18 - init commit">
       <created>1650142623902</created>
@@ -355,7 +358,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651010560427</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Chapter 21 - Using Shared Views">
+      <created>1651011001948</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1651011001948</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -389,7 +399,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Chapter 18 - Using Dependency Injection in Controllers" />
     <MESSAGE value="Chapter 18 - Using Model Binding to Access Route Data" />
     <MESSAGE value="Chapter 18 - Model Binding from the Request Body" />
     <MESSAGE value="Chapter 18 - Adding Additional Actions" />
@@ -414,6 +423,7 @@
     <MESSAGE value="Chapter 21 - Creating a Razor View" />
     <MESSAGE value="Chapter 21 - Modifying a Razor View" />
     <MESSAGE value="Chapter 21 - Selecting a View by Name" />
-    <option name="LAST_COMMIT_MESSAGE" value="Chapter 21 - Selecting a View by Name" />
+    <MESSAGE value="Chapter 21 - Using Shared Views" />
+    <option name="LAST_COMMIT_MESSAGE" value="Chapter 21 - Using Shared Views" />
   </component>
 </project>
