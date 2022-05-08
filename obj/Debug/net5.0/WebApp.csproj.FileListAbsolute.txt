@@ -456,3 +456,4 @@ C:\_oneDrive\OneDrive\_Coding\_Projects\WebApp\obj\Debug\net5.0\WebApp.Views.pdb
 C:\_oneDrive\OneDrive\_Coding\_Projects\WebApp\obj\Debug\net5.0\Razor\Views\Home\Watersports.cshtml.g.cs
 C:\_oneDrive\OneDrive\_Coding\_Projects\WebApp\obj\Debug\net5.0\Razor\Views\Shared\Common.cshtml.g.cs
 C:\_oneDrive\OneDrive\_Coding\_Projects\WebApp\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\_oneDrive\OneDrive\_Coding\_Projects\WebApp\obj\Debug\net5.0\Razor\Views\Home\List.cshtml.g.cs
