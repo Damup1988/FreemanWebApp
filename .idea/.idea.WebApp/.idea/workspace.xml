@@ -5,9 +5,20 @@
     <projectFile profileName="WebApp">WebApp.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4fdfeeaa-65db-42ec-9750-fcfa6bf5a363" name="Changes" comment="Chapter 21 - Enumerating Sequences + Using Razor Code Blocks">
+    <list default="true" id="4fdfeeaa-65db-42ec-9750-fcfa6bf5a363" name="Changes" comment="Chapter 22 - Preparing for This Chapter">
       <change beforePath="$PROJECT_DIR$/Controllers/HomeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/HomeController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Home/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Home/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net5.0/WebApp.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net5.0/WebApp.Views.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net5.0/WebApp.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net5.0/WebApp.Views.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net5.0/WebApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net5.0/WebApp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net5.0/WebApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net5.0/WebApp.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/WebApp.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/WebApp.Views.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/WebApp.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/WebApp.Views.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/WebApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/WebApp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/WebApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/WebApp.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/ref/WebApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/ref/WebApp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/refint/WebApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/refint/WebApp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/WebApp.csproj.EntityFrameworkCore.targets" beforeDir="false" afterPath="$PROJECT_DIR$/obj/WebApp.csproj.EntityFrameworkCore.targets" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +35,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/obj/Debug/net5.0/Razor/Views/Home/Index.cshtml.g.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/obj/Debug/net5.0/.NETCoreApp,Version=v5.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/_oneDrive/OneDrive/_Coding/_Projects/WebApp/Controllers/HomeController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/obj/Debug/net5.0/Razor/Views/Home/Watersports.cshtml.g.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/_oneDrive/OneDrive/_Coding/_Projects/WebApp/Controllers/HomeController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/obj/Debug/net5.0/Razor/Views/Shared/Common.cshtml.g.cs" root0="SKIP_HIGHLIGHTING" />
@@ -90,7 +102,7 @@
       <workItem from="1650180877411" duration="31437000" />
       <workItem from="1651008873167" duration="2189000" />
       <workItem from="1651525254514" duration="3284000" />
-      <workItem from="1652004755227" duration="2384000" />
+      <workItem from="1652004755227" duration="3024000" />
     </task>
     <task id="LOCAL-00001" summary="Chapter 18 - init commit">
       <created>1650142623902</created>
@@ -400,7 +412,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652006345908</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="Chapter 22 - Preparing for This Chapter">
+      <created>1652007174601</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1652007174601</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -434,7 +453,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Chapter 18 - Using Action Results" />
     <MESSAGE value="Chapter 18 - Performing Redirections" />
     <MESSAGE value="Chapter 18 - Redirecting to an Action Method" />
     <MESSAGE value="Chapter 18 - Validating Data" />
@@ -459,6 +477,7 @@
     <MESSAGE value="Chapter 21 - Setting Attribute Values" />
     <MESSAGE value="Chapter 21 - Using Conditional Expressions" />
     <MESSAGE value="Chapter 21 - Enumerating Sequences + Using Razor Code Blocks" />
-    <option name="LAST_COMMIT_MESSAGE" value="Chapter 21 - Enumerating Sequences + Using Razor Code Blocks" />
+    <MESSAGE value="Chapter 22 - Preparing for This Chapter" />
+    <option name="LAST_COMMIT_MESSAGE" value="Chapter 22 - Preparing for This Chapter" />
   </component>
 </project>
