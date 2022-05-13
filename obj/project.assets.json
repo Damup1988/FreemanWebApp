@@ -6231,15 +6231,9 @@
       "packagesPath": "C:\\Users\\damup1988\\.nuget\\packages\\",
       "outputPath": "C:\\_oneDrive\\OneDrive\\_Coding\\_Projects\\WebApp\\obj\\",
       "projectStyle": "PackageReference",
-      "configFilePaths": [
-        "C:\\Users\\damup1988\\AppData\\Roaming\\NuGet\\NuGet.Config"
-      ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
-      "sources": {
-        "https://api.nuget.org/v3/index.json": {}
-      },
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
