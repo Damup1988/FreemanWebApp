@@ -5,14 +5,17 @@
     <projectFile profileName="WebApp">WebApp.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4fdfeeaa-65db-42ec-9750-fcfa6bf5a363" name="Changes" comment="Chapter 22 - Working with Layouts">
-      <change beforePath="$PROJECT_DIR$/Views/Home/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Home/Index.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Shared/_Layout.cshtml" afterDir="false" />
+    <list default="true" id="4fdfeeaa-65db-42ec-9750-fcfa6bf5a363" name="Changes" comment="Chapter 22 - Configuring Layouts Using the View Bag">
+      <change afterPath="$PROJECT_DIR$/Views/_ViewStart.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Shared/Common.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Shared/Common.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/net5.0/WebApp.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net5.0/WebApp.Views.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/net5.0/WebApp.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net5.0/WebApp.Views.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/Razor/Views/Home/Index.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/Razor/Views/Home/Index.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/Razor/Views/Shared/Common.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/Razor/Views/Shared/Common.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/Razor/Views/Shared/_Layout.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/Razor/Views/Shared/_Layout.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/WebApp.RazorCoreGenerate.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/WebApp.RazorCoreGenerate.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/WebApp.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/WebApp.Views.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/WebApp.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/WebApp.Views.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/WebApp.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/WebApp.csproj.FileListAbsolute.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +37,7 @@
     <setting file="file://$PROJECT_DIR$/obj/Debug/net5.0/Razor/Views/Shared/_Layout.cshtml.g.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/obj/Debug/net5.0/Razor/Views/Shared/Common.cshtml.g.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/obj/Debug/net5.0/Razor/Views/Home/List.cshtml.g.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/_oneDrive/OneDrive/_Coding/_Projects/WebApp/Views/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/obj/Debug/net5.0/Razor/Views/_ViewImports.cshtml.g.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -97,7 +101,7 @@
       <workItem from="1651008873167" duration="2189000" />
       <workItem from="1651525254514" duration="3284000" />
       <workItem from="1652004755227" duration="5172000" />
-      <workItem from="1652444206667" duration="1194000" />
+      <workItem from="1652444206667" duration="1497000" />
     </task>
     <task id="LOCAL-00001" summary="Chapter 18 - init commit">
       <created>1650142623902</created>
@@ -435,7 +439,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652445125091</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="Chapter 22 - Configuring Layouts Using the View Bag">
+      <created>1652445412252</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1652445412252</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -469,7 +480,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Chapter 18 - Applying the API Controller Attribute" />
     <MESSAGE value="Chapter 18 - Projecting Selected Properties" />
     <MESSAGE value="Chapter 18 - Configuring the JSON Serializer" />
     <MESSAGE value="Chapter 20 - Preparing for This Chapter" />
@@ -494,6 +504,7 @@
     <MESSAGE value="Chapter 22 - Using the View Bag" />
     <MESSAGE value="Chapter 22 - Using Temp Data" />
     <MESSAGE value="Chapter 22 - Working with Layouts" />
-    <option name="LAST_COMMIT_MESSAGE" value="Chapter 22 - Working with Layouts" />
+    <MESSAGE value="Chapter 22 - Configuring Layouts Using the View Bag" />
+    <option name="LAST_COMMIT_MESSAGE" value="Chapter 22 - Configuring Layouts Using the View Bag" />
   </component>
 </project>
