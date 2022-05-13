@@ -460,3 +460,4 @@ C:\_oneDrive\OneDrive\_Coding\_Projects\WebApp\obj\Debug\net5.0\Razor\Views\Home
 C:\_oneDrive\OneDrive\_Coding\_Projects\WebApp\obj\Debug\net5.0\Razor\Views\Shared\Cubed.cshtml.g.cs
 C:\_oneDrive\OneDrive\_Coding\_Projects\WebApp\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\_oneDrive\OneDrive\_Coding\_Projects\WebApp\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\_oneDrive\OneDrive\_Coding\_Projects\WebApp\obj\Debug\net5.0\Razor\Views\Shared\_ImportantLayout.cshtml.g.cs
