@@ -5,8 +5,9 @@
     <projectFile profileName="WebApp">WebApp.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4fdfeeaa-65db-42ec-9750-fcfa6bf5a363" name="Changes" comment="Chapter 22 - Using Optional Layout Sections">
-      <change beforePath="$PROJECT_DIR$/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Shared/_Layout.cshtml" afterDir="false" />
+    <list default="true" id="4fdfeeaa-65db-42ec-9750-fcfa6bf5a363" name="Changes" comment="Chapter 22 - Enabling Partial Views">
+      <change afterPath="$PROJECT_DIR$/Views/Home/_RowPartial.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.WebApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebApp/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +32,9 @@
     <setting file="file://$PROJECT_DIR$/obj/Debug/net5.0/.NETCoreApp,Version=v5.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/_oneDrive/OneDrive/_Coding/_Projects/WebApp/Views/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/obj/Debug/net5.0/Razor/Views/Shared/Cubed.cshtml.g.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/_oneDrive/OneDrive/_Coding/_Projects/WebApp/Views/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/obj/Debug/net5.0/Razor/Views/Shared/_Layout.cshtml.g.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/_oneDrive/OneDrive/_Coding/_Projects/WebApp/Views/_ViewImports.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/_oneDrive/OneDrive/_Coding/_Projects/WebApp/obj/Debug/net5.0/Razor/Views/Shared/_Layout.cshtml.g.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/obj/Debug/net5.0/Razor/Views/_ViewStart.cshtml.g.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/_oneDrive/OneDrive/_Coding/_Projects/WebApp/Views/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
@@ -97,21 +100,7 @@
       <workItem from="1651008873167" duration="2189000" />
       <workItem from="1651525254514" duration="3284000" />
       <workItem from="1652004755227" duration="5172000" />
-      <workItem from="1652444206667" duration="7719000" />
-    </task>
-    <task id="LOCAL-00006" summary="Chapter 18 - Configuring Entity Framework Core Services and Middleware">
-      <created>1650200505433</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1650200505433</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Chapter 18 - Creating and Applying the Migration">
-      <created>1650219244801</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1650219244801</updated>
+      <workItem from="1652444206667" duration="8867000" />
     </task>
     <task id="LOCAL-00008" summary="Chapter 18 - Adding the CSS Framework">
       <created>1650219607672</created>
@@ -442,7 +431,21 @@
       <option name="project" value="LOCAL" />
       <updated>1652454937992</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="Chapter 22 - Testing for Layout Sections">
+      <created>1652455246088</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1652455246088</updated>
+    </task>
+    <task id="LOCAL-00056" summary="Chapter 22 - Enabling Partial Views">
+      <created>1652455917191</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1652455917191</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -476,8 +479,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Chapter 20 - Breaking Circular References in Related Data" />
-    <MESSAGE value="Chapter 20 - Installing and Configuring the JSON Patch Package" />
     <MESSAGE value="Chapter 20 - Understanding the Default Content Policy" />
     <MESSAGE value="Chapter 21 - Preparing for This Chapter" />
     <MESSAGE value="Chapter 21 - Configuring the Application" />
@@ -501,6 +502,8 @@
     <MESSAGE value="Chapter 22 - Using Layout Sections (1)" />
     <MESSAGE value="Chapter 22 - Using Layout Sections (2)" />
     <MESSAGE value="Chapter 22 - Using Optional Layout Sections" />
-    <option name="LAST_COMMIT_MESSAGE" value="Chapter 22 - Using Optional Layout Sections" />
+    <MESSAGE value="Chapter 22 - Testing for Layout Sections" />
+    <MESSAGE value="Chapter 22 - Enabling Partial Views" />
+    <option name="LAST_COMMIT_MESSAGE" value="Chapter 22 - Enabling Partial Views" />
   </component>
 </project>
