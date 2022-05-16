@@ -33,6 +33,7 @@ namespace WebApp
             });
 
             services.AddControllersWithViews().AddRazorRuntimeCompilation();
+            services.AddRazorPages().AddRazorRuntimeCompilation();
 
             services.AddDistributedMemoryCache();
             services.AddSession(opts =>
@@ -56,7 +57,7 @@ namespace WebApp
             {
                 endpoints.MapControllers();
                 endpoints.MapDefaultControllerRoute();
-                //endpoints.MapControllerRoute("Default", "{controller=Home}/{action=Index}/{id?}");
+                endpoints.MapRazorPages();
             });
             
             SeedData.SeedDataBase(context);
