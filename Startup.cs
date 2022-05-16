@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -39,6 +40,11 @@ namespace WebApp
             services.AddSession(opts =>
             {
                 opts.Cookie.IsEssential = true;
+            });
+
+            services.Configure<RazorPagesOptions>(opts =>
+            {
+                opts.Conventions.AddPageRoute("/Index", "/extra/page/{id:long?}");
             });
         }
 
