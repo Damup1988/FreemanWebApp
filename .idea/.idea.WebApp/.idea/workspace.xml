@@ -5,9 +5,9 @@
     <projectFile profileName="WebApp">WebApp.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4fdfeeaa-65db-42ec-9750-fcfa6bf5a363" name="Changes" comment="Chapter 22 - Understanding JSON Encoding">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.WebApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebApp/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Startup.cs" afterDir="false" />
+    <list default="true" id="4fdfeeaa-65db-42ec-9750-fcfa6bf5a363" name="Changes" comment="Chapter 23 - Configuring Razor Pages">
+      <change afterPath="$PROJECT_DIR$/Pages/Index.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pages/Index.cshtml.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +23,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/obj/Debug/net5.0/Razor/Views/Shared/_ImportantLayout.cshtml.g.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/_oneDrive/OneDrive/_Coding/_Projects/WebApp/Startup.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/obj/Debug/net5.0/Razor/Views/Home/Index.cshtml.g.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/obj/Debug/net5.0/Razor/Views/Home/_RowPartial.cshtml.g.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/_oneDrive/OneDrive/_Coding/_Projects/WebApp/obj/Debug/net5.0/Razor/Views/Home/Html.cshtml.g.cs" root0="SKIP_HIGHLIGHTING" />
@@ -99,14 +100,7 @@
       <workItem from="1651525254514" duration="3284000" />
       <workItem from="1652004755227" duration="5172000" />
       <workItem from="1652444206667" duration="9653000" />
-      <workItem from="1652662738693" duration="1246000" />
-    </task>
-    <task id="LOCAL-00012" summary="Chapter 18 - Creating a Controller">
-      <created>1650273647244</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1650273647244</updated>
+      <workItem from="1652662738693" duration="1702000" />
     </task>
     <task id="LOCAL-00013" summary="Chapter 18 - Using Dependency Injection in Controllers">
       <created>1650286108629</created>
@@ -444,7 +438,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652663146202</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="Chapter 23 - Configuring Razor Pages">
+      <created>1652663992672</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1652663992672</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -478,7 +479,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Chapter 21 - Understanding Convention Routing" />
     <MESSAGE value="Chapter 21 - Creating a Razor View" />
     <MESSAGE value="Chapter 21 - Modifying a Razor View" />
     <MESSAGE value="Chapter 21 - Selecting a View by Name" />
@@ -503,6 +503,7 @@
     <MESSAGE value="Chapter 22 - Applying a Partial View" />
     <MESSAGE value="Chapter 22 - Understanding HTML Encoding" />
     <MESSAGE value="Chapter 22 - Understanding JSON Encoding" />
-    <option name="LAST_COMMIT_MESSAGE" value="Chapter 22 - Understanding JSON Encoding" />
+    <MESSAGE value="Chapter 23 - Configuring Razor Pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="Chapter 23 - Configuring Razor Pages" />
   </component>
 </project>

@@ -464,3 +464,4 @@ C:\_oneDrive\OneDrive\_Coding\_Projects\WebApp\obj\Debug\net5.0\Razor\Views\Shar
 C:\_oneDrive\OneDrive\_Coding\_Projects\WebApp\obj\Debug\net5.0\Razor\Views\Home\_RowPartial.cshtml.g.cs
 C:\_oneDrive\OneDrive\_Coding\_Projects\WebApp\obj\Debug\net5.0\Razor\Views\Home\Html.cshtml.g.cs
 C:\_oneDrive\OneDrive\_Coding\_Projects\WebApp\obj\Debug\net5.0\Razor\Views\Home\_CellPartial.cshtml.g.cs
+C:\_oneDrive\OneDrive\_Coding\_Projects\WebApp\obj\Debug\net5.0\Razor\Pages\Index.cshtml.g.cs
